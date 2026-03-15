@@ -1,0 +1,61 @@
+{
+  "manifest_version": 1,
+  "name": "MaiHoYoGetCos_plugin",
+  "version": "1.0.0",
+  "description": "支持发送米游社cos图片的Maibot插件，也许以后会整合cookie相关功能",
+  "author": {
+    "name": "NymphSong",
+    "url": "https://github.com/NymphSong"
+  },
+  "license": "MIT",
+  "host_application": {
+    "min_version": "0.10.0",
+    "max_version": "4.0.0"
+  },
+  "homepage_url": "",
+  "repository_url": "",
+  "keywords": [
+    "米游社","cos","图片"
+  ],
+  "categories": [
+    "Entertainment & Interaction"
+  ],
+  "default_locale": "zh-CN",
+  "plugin_info": {
+    "is_built_in": false,
+    "plugin_type": "general",
+    "components": [
+      {
+        "type": "command",
+        "name": "hot_cos",
+        "description": "获取热门COS图片"
+      },
+      {
+        "type": "command",
+        "name": "rank_cos",
+        "description": "获取排行榜COS图片"
+      },
+      {
+        "type": "command",
+        "name": "search_cos",
+        "description": "搜索指定角色的COS图片"
+      },
+      {
+        "type": "command",
+        "name": "download_cos",
+        "description": "下载COS图片到本地"
+      },
+      {
+        "type": "command",
+        "name": "MaiHoYo_help",
+        "description": "显示插件帮助信息"
+      },
+      {
+        "type": "action",
+        "name": "send_cos",
+        "description": "根据用户请求发送COS图片"
+      }
+    ]
+  },
+  "id": "NymphSong.MaiHoYoGetCos_plugin"
+}
