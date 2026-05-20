@@ -10,7 +10,7 @@
   "license": "MIT",
   "host_application": {
     "min_version": "0.10.0",
-    "max_version": "4.0.0"
+    "max_version": "0.12.2"
   },
   "homepage_url": "",
   "repository_url": "https://github.com/NymphSong/MaiHoYoGetCos_plugin",
